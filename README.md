@@ -5,14 +5,6 @@ Read.me
 
 This readme file accompanies the Neb2 firmware (v 2.1.1.01) file uploaded on 30 March 2019. 
 
-The file you download is called: neb2Firmware2.1.1.01.zip
-
-There are two files inside that .zip file:
-
-	a) This read.me file
-
-	b) A firmware file for the Qu-Bit Nebulae 2 (Neb2) eurorack module.
-
 The firmware file is named: neb_update.zip
 
 That is the name that the Neb2 module requires in order to be recognized as a firmware update file.
