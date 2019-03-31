@@ -10,6 +10,7 @@ The file you download is called: neb2Firmware2.1.1.01.zip
 There are two files inside that .zip file:
 
 a) This read.me file
+
 b) A firmware file for the Qu-Bit Nebulae 2 (Neb2) eurorack module.
 
 The firmware file is named: neb_update.zip
