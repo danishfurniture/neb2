@@ -308,7 +308,7 @@ kpitch = 1.0
 endif
 
 ; Window Shape
-kwindow portk gkwindow_alt, 0.1
+kwindow portk gkwindow_alt, 0.1 ; window behavior swapped with window_alt behavior (danishfurniture)
 kwindowsel = int(kwindow * 6)
 kwindowblend = kwindow * 6
 kwindowchanged changed kwindowsel
@@ -421,10 +421,10 @@ kTrainCps	= 1				; grain rate for single-cycle trainlet in each grain
 knumpartials	= 1			; number of partials in trainlet
 kchroma		= 1				; balance of partials in trainlet
 krandommask	= 0				; no random grain masking
-if gkwindow < 0.01 then
+if gkwindow < 0.01 then 	; window behavior swapped with window_alt behavior (danishfurniture)
 	krandommask = 0
 else
-	krandommask = gkwindow * 0.99
+	krandommask = gkwindow * 0.99 ; window behavior swapped with window_alt behavior (danishfurniture)
 endif
 iwaveamptab	= -1			; mix of all 4 sourcve waveforms and no amp for trainlets
 krandposscalar = (gkloopstart_alt * gkloopstart_alt)
