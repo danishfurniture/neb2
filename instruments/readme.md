@@ -1,5 +1,8 @@
 This folder is for instr files for the Qu-Bit Neb2 eurorack module.
 
+
+#### NOTE: As of 04 Jun 2019, the instrument in this folder has NOT yet been updated to take advantage of the new firmware.
+
 #### windowAltSwap.instr
 This instrument is identical to the Qu-Bit granular looper instrument, except that the 'window' and window_alt' functions have been swapped. For this instrument, the default behavior for the window control is:
 * Stochastic grain masking.
