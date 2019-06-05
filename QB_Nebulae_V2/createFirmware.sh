@@ -6,6 +6,9 @@
 # Using the .zip extension was an oversight,
 #    but the check_firmware.sh  on the Nebulae
 #    is not user-updateable
+#
+# NOTE: this file has been written to work
+#       on MacOS
 ################################################
 
 echo "Creating Nebulae Firmware Update"
